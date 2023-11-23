@@ -3927,7 +3927,7 @@ body.is-preload #sidebar nav ul li {
 
 /* Intro */
 
-#intro {
+#welcome {
   background-attachment: fixed;
   background-image: url("images/bg.png");
   background-position: top right;
@@ -3935,18 +3935,18 @@ body.is-preload #sidebar nav ul li {
   background-size: 100% 100%;
 }
 
-#intro p {
+#welcome p {
   font-size: 1.25em;
 }
 
 @media screen and (max-width: 980px) {
-  #intro p br {
+  #welcome p br {
     display: none;
   }
 }
 
 @media screen and (max-width: 736px) {
-  #intro p {
+  #welcome p {
     font-size: 1em;
   }
 }
