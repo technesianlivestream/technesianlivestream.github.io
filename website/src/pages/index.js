@@ -24,29 +24,9 @@ function HomepageHeader() {
     >
       <div className="container">
         <Heading as="h1" className="hero__title">
-            <img src="/img/tls-logo.svg" alt="TLS Logo" style={{ width: '500px', height: '500px', maxWidth: '100%', height: 'auto' }} />
+            <img src="/img/tls-logo-2.svg" alt="TLS Logo" style={{ width: '600px', height: '600px', maxWidth: '100%', height: 'auto' }} />
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Button
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Button
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Button
-          </Link>
-        </div>
       </div>
     </header>
   );
