@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'The TechNesian Live Stream',
-  tagline: 'Exploring Cloud Technology, DevOps, and Cybersecurity',
+  tagline: 'Pasifika Engineers Exploring Cloud, DevOps & Cyber Security',
   favicon: 'img/favicon.ico',
 
   url: 'https://technesianlivestream.github.io',
@@ -59,7 +59,7 @@ const config = {
       //title: 'The TechNesian Live Stream',
       logo: {
         alt: 'TLS Logo',
-        src: 'img/technesian-logo.png', // Update your logo path
+        src: 'img/tls-logo-circle.png', // Update your logo path
       },
       items: [
         {
