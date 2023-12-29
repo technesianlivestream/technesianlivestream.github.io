@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.image-section {
+  flex: 1;
+}
+
+.buttons button {
+  margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .image-section {
+      order: -1; /* Image above the text on mobile */
+  }
+
+  .buttons button {
+      display: block;
+      margin-bottom: 10px;
+  }
+}
+
+/* Base style for buttons */
+.landing-page-button {
+  background-color: transparent;
+  border: 2px solid #0078D4; /* Example border color */
+  color: #0078D4; /* Example text color */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/* Hover state */
+.landing-page-button:hover {
+  background-color: #0078D4; /* Example hover background color */
+  color: white; /* Example hover text color */
+}
+
+/* Active state */
+.landing-page-button:active {
+  background-color: #0056A3; /* Example active background color */
+  border-color: #0056A3; /* Example active border color */
+}
