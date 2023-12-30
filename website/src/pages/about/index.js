@@ -20,14 +20,19 @@ function About() {
               {/* Presenter 1 */}
               <div className={clsx("col col--6", styles.presenter)}>
                 <img src="/img/profile-ron.png" alt="Presenter 1" className={styles.profilePic} />
-                <h3>Ron Amosa</h3>
-                <p>Presenter 1 bio...</p>
+                <h2>Ron Amosa</h2>
+                <h3>Architect / Hacker / Engineer</h3>
+                <p>Ron has over 20 years of hands-on technical experience in various engineering roles within the tech industry, including Systems Engineering, DevOps, Site Reliability, Cyber Security, Solutions Architecture, and Technical Consulting. </p>
+                <p> When not sitting behind a computer (which isn't often) Ron enjoys playing Drums, riding motorbikes 🏍️, getting tattood, and doing Brazilian Jiu-Jitsu 🥋.</p>
               </div>
               {/* Presenter 2 */}
               <div className={clsx("col col--6", styles.presenter)}>
                 <img src="/img/profile-gt.png" alt="Presenter 2" className={styles.profilePic} />
-                <h3>Gerald Tuimalealiifano ("GT")</h3>
-                <p>Presenter 2 bio...</p>
+                <h2>Gerald Tuimalealiifano ("GT")</h2>
+                <h3>Site Reliability Engineer</h3>
+                <p>
+                GT has over 10 years of experience working in various roles, including Systems Engineering, IT Management, and DevOps/SRE. In his free time, he enjoys playing beach volleyball 🏖️ 🏐, touch rugby 🏉, and soccer ⚽.
+                </p>
               </div>
             </div>
           </div>
