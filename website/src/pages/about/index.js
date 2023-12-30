@@ -19,13 +19,13 @@ function About() {
             <div className="row">
               {/* Presenter 1 */}
               <div className={clsx("col col--6", styles.presenter)}>
-                <img src="path-to-profile-pic-1.jpg" alt="Presenter 1" className={styles.profilePic} />
+                <img src="/img/profile-ron.png" alt="Presenter 1" className={styles.profilePic} />
                 <h3>Ron Amosa</h3>
                 <p>Presenter 1 bio...</p>
               </div>
               {/* Presenter 2 */}
               <div className={clsx("col col--6", styles.presenter)}>
-                <img src="path-to-profile-pic-2.jpg" alt="Presenter 2" className={styles.profilePic} />
+                <img src="/img/profile-gt.png" alt="Presenter 2" className={styles.profilePic} />
                 <h3>Gerald Tuimalealiifano ("GT")</h3>
                 <p>Presenter 2 bio...</p>
               </div>

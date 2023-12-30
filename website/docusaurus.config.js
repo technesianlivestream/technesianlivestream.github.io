@@ -61,7 +61,7 @@ module.exports = {
           position: 'left',
           label: '🗃️ Docs',
         },
-        { to: "about/", label: "About", position: "right" },
+        { to: "about/", label: "🪪 Profile", position: "right" },
         {
           href: 'https://github.com/technesianlivestream/technesianlivestream',
           label: 'GitHub',
@@ -75,12 +75,17 @@ module.exports = {
       links: [
         // Update footer links as needed
         {
-          title: 'Docs',
+          title: 'Links',
           items: [
             {
-              label: 'About',
-              to: '/docs/intro',
+              label: '🗃️ Docs',
+              to: "docs/",
             },
+            {
+              label: '🪪 Profile',
+              to: 'about/',
+            },
+
           ],
         },
         // Add other footer sections here if needed
