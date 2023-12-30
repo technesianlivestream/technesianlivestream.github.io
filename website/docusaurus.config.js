@@ -1,11 +1,4 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+module.exports = {
   title: 'The TechNesian Live Stream',
   tagline: 'Pasifika Engineers Exploring Cloud, DevOps & Cyber Security',
   favicon: 'img/favicon.ico',
@@ -56,18 +49,19 @@ const config = {
     image: 'img/technesian-social-card.png', // Update this if you have a new social card image
     navbar: {
       style: 'primary',
-      //title: 'The TechNesian Live Stream',
+      title: 'The TechNesians',
       logo: {
         alt: 'TLS Logo',
         src: 'img/tls-logo-circle.png', // Update your logo path
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
+          to: "docs/",
+          activeBasePath: "docs",
           position: 'left',
-          label: 'About',
+          label: '🗃️ Docs',
         },
+        { to: "about/", label: "About", position: "right" },
         {
           href: 'https://github.com/technesianlivestream/technesianlivestream',
           label: 'GitHub',
@@ -91,13 +85,11 @@ const config = {
         },
         // Add other footer sections here if needed
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} The TechNesian Live Stream. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The TechNesian Live Stream.`,
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+      additionalLanguages: ['ruby', 'hcl', 'docker', 'yaml'],
+      theme: require('prism-react-renderer/themes/nightOwl')
     },
   }),
 };
-
-module.exports = config;
