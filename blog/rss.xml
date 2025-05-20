@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>The TechNesian Live Stream Blog</title>
+        <link>https://technesianlivestream.github.io/blog</link>
+        <description>The TechNesian Live Stream Blog</description>
+        <lastBuildDate>Tue, 20 May 2025 23:34:55 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://technesianlivestream.github.io/blog/welcome</link>
+            <guid>https://technesianlivestream.github.io/blog/welcome</guid>
+            <pubDate>Tue, 20 May 2025 23:34:55 GMT</pubDate>
+            <category>facebook</category>
+            <category>hello</category>
+            <category>docusaurus</category>
+        </item>
+    </channel>
+</rss>
